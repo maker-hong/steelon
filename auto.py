@@ -304,15 +304,3 @@ schedule.every().day.at("13:00").do(auto_task)
 while True:
     schedule.run_pending()
     time.sleep(1)
-
-
-
-
-
-
-
-
-    # 업로드하기
-
-
-        
