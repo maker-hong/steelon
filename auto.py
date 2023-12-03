@@ -34,7 +34,7 @@ def auto_task():
     # execute Chrome WebDriver
     driver = webdriver.Chrome()
 
-    # 홈페이지 열기
+    # Open webpage
     driver.get('http://steel-n.com/')
 
     time.sleep(2)
@@ -74,10 +74,10 @@ def auto_task():
     time.sleep(2)
 
     # Customer Code, ID, PW, CRT_PW
-    customer_code = 'GDA81'
-    user_id = 'CNC1'
-    user_pw = 'Poscocnc2'
-    sec_pw = 'Purchase@'
+    customer_code = 'aaaa'
+    user_id = 'bbbb'
+    user_pw = 'cccc'
+    sec_pw = 'dddd'
 
     # Input Log-In Data
     customer_code_input = driver.find_element(By.ID, 'customerNumberP')
@@ -219,7 +219,7 @@ def auto_task():
         time.sleep(5)
 
         # Login
-        pyperclip.copy("PC107522")
+        pyperclip.copy("eeee")
         pyautogui.hotkey('ctrl','v')
         pyautogui.press('enter')
 
